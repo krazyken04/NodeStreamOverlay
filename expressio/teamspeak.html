@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Title of the document</title>
+	<link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+	
+	<!-- <script src="/socket.io/socket.io.js"></script> -->
+	<script src="/jquery.js"></script>
+	<script src="/ts.js"></script>
+	<script type="text/javascript">
+		
+		function getParameterByName(name) {
+		    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+		        results = regex.exec(location.search);
+		    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+		
+		$(document).ready(function(){
+			
+			var query = getParameterByName('opponents');
+			console.log(query);
+			
+			$.ajax({
+					type: "GET",
+					url: "/teamspeakJSON?opponents=" + query,
+					success: function(data){
+						renderPage(data);
+					},
+					error: function(jqXHR, textStatus, errorThrown){
+						console.log(textStatus);
+						console.log(errorThrown);
+					}
+			});
+			
+		});
+		
+		function renderPage(json){
+			console.log(json);
+			$('body').append('<ul></ul>');
+			
+			console.log($(json).last()[0].mostPlayedChamps);
+			
+			$.each($(json).last()[0].mostPlayedChamps, function(i, champ){
+				if(i<=2){
+					$('ul').append('<li><img src="'+champ.icon+'" /> <br/> Performance: '+champ.perf+' </br> Games: '+champ.games+' </li>');	
+				}
+			});
+		}
+		
+	</script>
+</body>
+</html>
+
+

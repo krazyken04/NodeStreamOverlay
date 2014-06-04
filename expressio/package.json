@@ -6,6 +6,7 @@
         "express.io": "*",
         "redis": "*",
         "socket.io-mongo": "*",
-        "irc" : "*"
+        "irc" : "*",
+        "connect" : "*"
     }
 }
