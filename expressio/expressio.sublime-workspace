@@ -1,0 +1,430 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"emoteTime",
+				"emoteTimeLeft"
+			],
+			[
+				"emoteTi",
+				"emoteTime"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"function",
+				"functionCalled"
+			],
+			[
+				"func",
+				"functionCalled"
+			],
+			[
+				"req",
+				"requestedBy"
+			],
+			[
+				"roo",
+				"roomSize"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 8298,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/socketWork.js",
+			"settings":
+			{
+				"buffer_size": 1340,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "emoteCount.html",
+			"settings":
+			{
+				"buffer_size": 563,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/styles.css",
+			"settings":
+			{
+				"buffer_size": 3045,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Ken/Desktop/obs/node/expressio/public/socketWork.js",
+		"/C/Users/Ken/Desktop/obs/node/expressio/public/styles.css",
+		"/C/Users/Ken/Desktop/obs/node/expressio/socketWork.js",
+		"/C/Users/Ken/Desktop/obs/node/expressio/styles.css",
+		"/C/Users/Ken/Desktop/obs/node/expressio/images/emote_surprise.png",
+		"/C/Users/Ken/Desktop/obs/node/expressio/marquee.js",
+		"/C/Users/Ken/Desktop/obs/node/expressio/jquery.js",
+		"/C/Users/Ken/Desktop/obs/node/expressio/package.json",
+		"/C/Users/Ken/Desktop/obs/node/nodetest1/bot.js",
+		"/C/Users/Ken/Desktop/obs/ken/ThreshCounter/bot/bot_old.ahk",
+		"/C/Users/Ken/Desktop/obs/node/expressio/client.html",
+		"/C/Users/Ken/Desktop/obs/node/nodetest5/nodetest5/public/javascripts/global.js",
+		"/C/Users/Ken/Desktop/obs/node/nodetest5/nodetest5/views/index.jade",
+		"/C/Users/Ken/Desktop/obs/node/nodetest5/nodetest5/routes/index.js",
+		"/C/Users/Ken/Desktop/obs/node/nodetest5/nodetest5/views/index.html",
+		"/C/Users/Ken/Desktop/obs/node/nodetest5/package.json",
+		"/C/Users/Ken/Desktop/obs/node/nodetest2/npm-debug.log",
+		"/C/Users/Ken/Desktop/obs/node/nodetest2/public/javascripts/global.js",
+		"/C/Users/Ken/Desktop/obs/node/nodetest2/bin/www",
+		"/C/Users/Ken/Desktop/obs/node/nodetest2/routes/users.js",
+		"/C/Users/Ken/Desktop/obs/node/nodetest2/bot.js",
+		"/C/Users/Ken/Desktop/obs/node/nodetest2/views/index.jade",
+		"/C/Users/Ken/Desktop/obs/node/nodetest2/views/layout.jade",
+		"/C/Users/Ken/Desktop/obs/node/nodetest2/app_old.js",
+		"/C/Users/Ken/Desktop/obs/node/nodetest2/public/stylesheets/style.css",
+		"/C/Users/Ken/Desktop/obs/node/nodetest1/views/layout.jade",
+		"/C/Users/Ken/Desktop/obs/node/nodetest1/views/index.jade",
+		"/C/Users/Ken/Desktop/obs/node/nodetest1/routes/index.js",
+		"/C/Users/Ken/AppData/Roaming/Sublime Text 2/Packages/Jade/Jade.tmLanguage",
+		"/C/Users/Ken/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Ken/Desktop/obs/node/nodetest1/nodetest1.sublime-project",
+		"/C/Users/Ken/Desktop/obs/node/nodetest1/package.json",
+		"/C/Users/Ken/Desktop/obs/ken/ThreshCounter/bot/arr.ahk",
+		"/C/Users/Ken/Desktop/Projects/Students/sftp-config.json",
+		"/C/Users/Ken/Desktop/Projects/Students/LeonardoRodriguez-694960.html",
+		"/C/Users/Ken/Desktop/obs/ken/ThreshCounter/Testing.ahk"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".emit('countdown'",
+			"emit",
+			"emit.",
+			"emoteRequested",
+			"majority",
+			"'));\n",
+			".stop()",
+			"req.io.emit('emote',",
+			"io.emit",
+			"emoteRequested",
+			"MOD:",
+			"1",
+			"console.log",
+			"3000",
+			"server.listen",
+			"port",
+			"res",
+			"Spacing",
+			"OnMessage",
+			"WS2_CleanUp",
+			"//",
+			"ahk",
+			"//",
+			";",
+			"'",
+			"Joe",
+			"Anthony",
+			"Ethan",
+			"Orlando",
+			"Samantha",
+			"Damian",
+			"Gabriel",
+			"Adam",
+			"Yesenia",
+			"Johan",
+			"Claudio",
+			"Alondra",
+			"Alfredo",
+			"Rebecca",
+			"your student",
+			"*|SCHPHONE|*",
+			"*|SCHEMAIL|*",
+			"*|",
+			"*|TITLE:SCHNAME|*",
+			"*|",
+			"*|SCH",
+			"*|",
+			"*|TITLE:SFNAME|*",
+			"*|DATE:m/d/y|*",
+			"*|",
+			"*|SFNAME|*"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"emit.broadcast.",
+			"MOD - ",
+			";",
+			"//",
+			"Leonardo",
+			"Joe",
+			"Anthony",
+			"Ethan",
+			"Orlando",
+			"Samantha",
+			"Damian",
+			"Gabriel",
+			"Adam",
+			"Yesenia",
+			"Johan",
+			"Claudio",
+			"Alondra",
+			"Alfredo",
+			"Rebecca",
+			"210-554-2585",
+			" rgonzales5@saisd.net",
+			"Irving Middle School",
+			"Rebecca",
+			"May 16th, 2014",
+			"Rebecca"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 8298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3183,
+								3183
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1264.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/socketWork.js",
+					"settings":
+					{
+						"buffer_size": 1340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								781
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 711.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "emoteCount.html",
+					"settings":
+					{
+						"buffer_size": 563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								276
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/styles.css",
+					"settings":
+					{
+						"buffer_size": 3045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2144,
+								2144
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1369.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true
+}
