@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost:7078/styles.css */
+
 /**
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
@@ -160,3 +163,127 @@ body {
 		font-weight: bold;
 }
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>> TS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+*:focus { outline: none; }
+
+body#banHunter {
+	background: #915f2b url(images/bg.png) no-repeat center top;
+}
+
+#banHunter #wrapper {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#banner {
+	height: 80px;
+	background: url(images/header.png);
+}
+
+	#banner h1 {
+		width: 1100px;
+		height: 58px;
+		background: url(images/logo.png) no-repeat left center;
+		text-indent: -99999px;
+		margin: 0 auto;
+		position: relative;
+		top: 10px;
+	}
+	
+	#searchWrapper {
+		height: 210px;
+		width: 674px;
+		margin: 80px auto;
+		position: relative;
+		overflow: hidden;
+	}
+	
+		#search {
+			width: 674px;
+			height: 109px;
+			background: url(images/searchBG.png);
+		}
+		
+			#search input {
+				width: 486px;
+				height: 43px;
+				position: absolute;
+				right: 75px;
+				top: 48px;
+				text-indent: 30px;
+				font-size: 30px;
+				color: #fff;
+				background: transparent;
+				border: none;
+			}
+			
+		#search.active {
+			background: url(images/searchingBG.png);
+		}
+		
+		.pressEnter {
+			display: block;
+			width: 119px;
+			height: 31px;
+			background: url(images/pressEnter.png);
+			position: absolute;
+			right: 85px;
+			top: 56px;
+		}
+		
+		#opponents {
+			width: 400px;
+			height: 60px;
+			margin: 0 auto;
+			overflow: hidden;
+			margin-top: 40px;
+		}
+		
+			.opponent {
+				display: block;
+				float: left;
+				height: 60px;
+				width: 60px;
+				background: url(images/anonymousSearch.png);
+				margin-left: 15px;
+				
+			}
+			
+				.opponent span {
+					display: block;
+					height: 100%;
+					width: 100%;
+					background-position: center center;
+					background-repeat: no-repeat;
+				}
+				
+				.opponent.check span {
+					background-image: url(images/check.png);
+				}
+				
+				.opponent.ellipse span {
+					background-image: url(images/ellipses.png);
+				}
+				
+				.opponent.close span {
+					background-image: url(images/cancel.png);
+				}
+				
+		
+		#built {
+			width: 391px;
+			height: 115px;
+			background: url(images/built.png);
+			margin: 0 auto;
+			position: relative;
+		}
+			#built a {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+			
+			#built:hover {
+				top: 2px;
+			}
+			

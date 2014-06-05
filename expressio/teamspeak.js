@@ -207,7 +207,8 @@ app.get('/teamspeakJSON', function(req, res) {
 	}
 
 	function doRender(){
-		
+		console.log(json);
+				
 		// Which champions have hte most games
 		var mostPlayedChamps = [];
 		

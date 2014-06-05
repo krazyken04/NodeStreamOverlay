@@ -5,7 +5,32 @@
 	<title>Title of the document</title>
 	<link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
-<body>
+<body id="banHunter">
+	
+	<div id="banner">
+		<h1>Ban Hunter - A League of Legends Tournament Banning Tool</h1>
+	</div><!-- END banner -->
+	
+	<div id="wrapper">
+		
+		<div id="searchWrapper">
+			<div id="search">
+				<input type="text" />
+			</div><!-- END search -->
+			
+			<ul id="opponents" class="active">
+				<li class="opponent"><span></span></li>
+				<li class="opponent"><span></span></li>
+				<li class="opponent"><span></span></li>
+				<li class="opponent"><span></span></li>
+				<li class="opponent"><span></span></li>
+			</ul><!-- END opponents -->
+		</div><!-- END searchWrapper -->
+		
+		<div id="built">
+			<a href="http://www.twitch.tv/warpspiderx"></a>
+		</div><!-- END built -->
+	</div><!-- END wrapper -->
 	
 	<!-- <script src="/socket.io/socket.io.js"></script> -->
 	<script src="/jquery.js"></script>
@@ -45,9 +70,9 @@
 			console.log($(json).last()[0].mostPlayedChamps);
 			
 			$.each($(json).last()[0].mostPlayedChamps, function(i, champ){
-				if(i<=2){
-					$('ul').append('<li><img src="'+champ.icon+'" /> <br/> Performance: '+champ.perf+' </br> Games: '+champ.games+' </li>');	
-				}
+				//if(i<=2){
+					//$('ul').append('<li><img src="'+champ.icon+'" /> <br/> Performance: '+champ.perf+' </br> Games: '+champ.games+' </li>');	
+				//}
 			});
 		}
 		
